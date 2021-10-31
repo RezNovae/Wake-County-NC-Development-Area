@@ -11,5 +11,5 @@ To identify exact areas of development within Wake County and to understand urba
 
 ## Method
 
-Utilized NAT83 projection or EPSG 2264, then raster clipped between the projection and wake_county.shp file to create the exact area of wake county. 
-Overlayed the clipped projection with symbology to color code areas inside the map with the help of an excel spreadsheet containing grid values. Gave numeric values (1-5) to each designation to help assign grid values from the spreadsheet to each designation. 
+Utilized EPSG 2264 as the projection, then raster clipped between the raster file and wake_county.shp file to create a clipped wake raster county. 
+Overlayed the clipped raster with symbology to color code areas inside the map with the help of an excel spreadsheet containing grid values. Raster calculated to provide grid values to raster cells. 
